@@ -1,0 +1,56 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.75);
+}
+.modal {
+  background-color: #f4f4f4;
+  margin: 2rem auto;
+  width: 50%;
+  border: 1px solid #333;
+  border-radius: 5px;
+  position: fixed;
+  z-index: 100;
+  top: 30vh;
+  left: 25%;
+  overflow: hidden;
+}
+
+.modal header {
+  height: 100%;
+  background-color: rgb(46, 11, 71);
+  color: white;
+  font-weight: bold;
+}
+
+.modal header h2 {
+  margin: 0;
+  padding: 1rem;
+}
+
+.msg {
+  background-color: #f4f4f4;
+  padding: 1rem;
+}
+
+.modal footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+.modal footer button {
+  cursor: pointer;
+  padding: 0.5rem;
+  border: 1px solid #333;
+  background-color: rgb(46, 11, 71);
+  color: white;
+  border-radius: 5px;
+}
+
+.modal footer button:hover {
+  background-color: rgb(150, 87, 196);
+}

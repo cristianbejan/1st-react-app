@@ -1,0 +1,35 @@
+.user-input {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 90%;
+  border-radius: 5px;
+}
+
+.user-input label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.user-input input {
+  padding: 0.5rem;
+  width: 100%;
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+.user-input button {
+  cursor: pointer;
+  padding: 1rem;
+  border: 1px solid #333;
+  background-color: rgb(46, 11, 71);
+  color: white;
+  border-radius: 5px;
+}
+
+.user-input button:hover {
+  background-color: rgb(150, 87, 196);
+}

@@ -1,0 +1,22 @@
+.user-list {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 90%;
+  border-radius: 5px;
+}
+
+.user-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.user-item {
+  list-style: none;
+  padding: 0.5rem;
+  width: 100%;
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
