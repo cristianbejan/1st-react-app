@@ -11,12 +11,3 @@
   list-style: none;
   padding: 0;
 }
-
-.user-item {
-  list-style: none;
-  padding: 0.5rem;
-  width: 100%;
-  border: 1px solid #333;
-  border-radius: 5px;
-  margin-bottom: 0.5rem;
-}

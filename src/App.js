@@ -9,10 +9,15 @@ const App = () => {
     setUsersList([...usersList, user]);
   };
 
+  const onRemoveHandler = (userId) => {
+    const newList = usersList.filter((user) => user.id !== userId);
+    setUsersList(newList);
+  };
+
   return (
     <div>
       <UserInput onAddUser={addUserHandler} />
-      <UserList usersList={usersList} />
+      <UserList usersList={usersList} onDelete={onRemoveHandler} />
     </div>
   );
 };

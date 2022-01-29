@@ -1,0 +1,23 @@
+li {
+  list-style: none;
+  padding: 0.5rem;
+  width: 100%;
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+li button {
+  cursor: pointer;
+  padding: 0.5rem;
+  border: 1px solid #333;
+  background-color: rgb(46, 11, 71);
+  color: white;
+  border-radius: 5px;
+}
+
+li button:hover {
+  background-color: rgb(150, 87, 196);
+}

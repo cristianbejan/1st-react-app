@@ -35,6 +35,7 @@ const UserInput = (props) => {
     }
 
     const users = {
+      id: Math.random().toString(),
       name: enteredName,
       age: enteredAge,
     };
